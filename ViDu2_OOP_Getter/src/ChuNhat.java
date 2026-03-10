@@ -19,7 +19,7 @@ public class ChuNhat {
 //        rong = rongM;
 //    }
     // cac getter
-    doube getDai() {
+    double getDai() {
         return dai;
     }
     double getRong() {
