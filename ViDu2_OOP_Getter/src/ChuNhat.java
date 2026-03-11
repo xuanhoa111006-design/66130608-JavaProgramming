@@ -33,5 +33,17 @@ public class ChuNhat {
         rong = rongM;
     }
     //cac phuong thuc khac
+    public String toString() {
+        //tom tat thong tin cua doi tuong
+        //thanh 1 chuoi
+
+       String s = "Chu nhat co dai: ";
+         s = s + dai;
+            s = s + " va chieu rong: " + rong;
+        //s = "Chu nhat co dai: " + dai + " va chieu rong: " + rong;
+        return s;
+    }
+    
+}
     
 }
